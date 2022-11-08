@@ -191,7 +191,7 @@
   
       </details>
 
-    - <details><summary>In <code>app/controllers/<ins><strong>photos</strong></ins>_controller.rb</code>, add a show action</summary>
+    - <details><summary>In <code>app/controllers/<ins><strong>photos</strong></ins>_controller.rb</code>, add an update action</summary>
   
       ```ruby
         def update
@@ -229,7 +229,7 @@
   
       </details>
 
-    - <details><summary>In <code>app/controllers/<ins><strong>photos</strong></ins>_controller.rb</code>, add a show action</summary>
+    - <details><summary>In <code>app/controllers/<ins><strong>photos</strong></ins>_controller.rb</code>, add a destroy action</summary>
   
       ```ruby
         def destroy
