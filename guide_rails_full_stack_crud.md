@@ -9,13 +9,13 @@
 2.  In your terminal, create a new rails project:
 
     ```
-    rails new name_of_your_app --no-api
+    rails new name-of-your-app --no-api
     ```
 
 3.  In the terminal, go to your new directory
 
     ```
-    cd name_of_your_app
+    cd name-of-your-app
     ```
 
 4.  In the terminal, create the database by entering:
@@ -27,7 +27,7 @@
 5.  In the terminal, create a new controller by entering:
 
     ```
-    rails generate controller Photos
+    rails generate controller photos
     ```
 
 6.  In the terminal, create a new model by entering:
