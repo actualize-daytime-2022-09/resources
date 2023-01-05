@@ -635,16 +635,16 @@
             <p>Height: {props.photo.height}</p>
     +       <form>
     +         <div>
-    +           Name: <input defaultValue="props.photo.name" name="name" type="text" />
+    +           Name: <input defaultValue={props.photo.name} name="name" type="text" />
     +         </div>
     +         <div>
-    +           Url: <input defaultValue="props.photo.url" name="url" type="text" />
+    +           Url: <input defaultValue={props.photo.url} name="url" type="text" />
     +         </div>
     +         <div>
-    +           Width: <input defaultValue="props.photo.width" name="width" type="text" />
+    +           Width: <input defaultValue={props.photo.width} name="width" type="text" />
     +         </div>
     +         <div>
-    +           Height: <input defaultValue="props.photo.height" name="height" type="text" />
+    +           Height: <input defaultValue={props.photo.height} name="height" type="text" />
     +         </div>
     +         <button type="submit">Update photo</button>
     +       </form>
@@ -752,16 +752,16 @@
     -       <form>
     +       <form onSubmit={handleSubmit}>
               <div>
-                Name: <input defaultValue="props.photo.name" name="name" type="text" />
+                Name: <input defaultValue={props.photo.name} name="name" type="text" />
               </div>
               <div>
-                Url: <input defaultValue="props.photo.url" name="url" type="text" />
+                Url: <input defaultValue={props.photo.url} name="url" type="text" />
               </div>
               <div>
-                Width: <input defaultValue="props.photo.width" name="width" type="text" />
+                Width: <input defaultValue={props.photo.width} name="width" type="text" />
               </div>
               <div>
-                Height: <input defaultValue="props.photo.height" name="height" type="text" />
+                Height: <input defaultValue={props.photo.height} name="height" type="text" />
               </div>
               <button type="submit">Update photo</button>
             </form>
@@ -877,16 +877,16 @@
             <h1>Photo information</h1>
             <form onSubmit={handleSubmit}>
               <div>
-                Name: <input defaultValue="props.photo.name" name="name" type="text" />
+                Name: <input defaultValue={props.photo.name} name="name" type="text" />
               </div>
               <div>
-                Url: <input defaultValue="props.photo.url" name="url" type="text" />
+                Url: <input defaultValue={props.photo.url} name="url" type="text" />
               </div>
               <div>
-                Width: <input defaultValue="props.photo.width" name="width" type="text" />
+                Width: <input defaultValue={props.photo.width} name="width" type="text" />
               </div>
               <div>
-                Height: <input defaultValue="props.photo.height" name="height" type="text" />
+                Height: <input defaultValue={props.photo.height} name="height" type="text" />
               </div>
               <button type="submit">Update photo</button>
             </form>
